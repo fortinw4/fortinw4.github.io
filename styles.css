@@ -22,14 +22,17 @@ main {
 main.content-primary {
 	flex: 1;
 	background-color: red;
+	height: 1200px;
 }
 
 main.content-secondary {
 	flex: 1;
 	background-color: green;
+	height: 1200px;
 }
 
 main.content-tertiary {
 	flex: 1;
 	background-color: blue;
+	height: 1200px;
 }
