@@ -14,3 +14,22 @@ html {
 body {
 	margin: 0;
 }
+
+main {
+	display: flex;
+}
+
+main.content-primary {
+	flex: 1;
+	background-color: red;
+}
+
+main.content-secondary {
+	flex: 1;
+	background-color: green;
+}
+
+main.content-tertiary {
+	flex: 1;
+	background-color: blue;
+}
