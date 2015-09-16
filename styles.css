@@ -15,6 +15,17 @@ body {
 	margin: 0;
 }
 
+header nav {
+	background-color: #444;
+	height: 100px;
+	padding-top: 25px;
+}
+
+header nav a {
+	text-decoration: none;
+	margin: 0 25px 0 25px;
+}
+
 main {
 	display: flex;
 }
@@ -32,7 +43,6 @@ main .content-secondary {
 }
 
 main .content-tertiary {
-	flex: 1;
-	background-color: blue;
-	height: 1200px;
+	
 }
+
