@@ -33,13 +33,13 @@ main {
 main .content-primary {
 	flex: 1;
 	background-image: url('images/dof1b.png');
-	height: 1200px;
+	height: 786px;
 }
 
 main .content-secondary {
 	flex: 1;
 	background-color: green;
-	height: 1200px;
+	height: 786px;
 }
 
 main .content-tertiary {
