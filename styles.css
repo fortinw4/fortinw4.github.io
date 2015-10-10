@@ -38,11 +38,48 @@ main .content-primary {
 
 main .content-secondary {
 	flex: 1;
-	background-color: green;
+	background-color: #4CBB4C;
 	height: 786px;
 }
 
-main .content-tertiary {
-	
+main .content-secondary p {
+	margin: 150px 50px 0 50px;
 }
+
+aside .content-tertiary {
+	background-color: #444;
+	height: 786px;
+	display: flex;
+}
+
+aside .content-tertiary div:nth-child(2) {
+	flex: 1;
+}
+
+aside .content-tertiary div:nth-child(3){
+	flex: 1;
+}
+
+aside .content-tertiary h2 {
+	display: inline-block;
+	margin: 20px 0 50px 60px;
+	font-size: 2em;
+}
+
+aside .content-tertiary div p {
+	margin: 100px 0 20px 150px;
+}
+aside .content-tertiary div a {
+	text-decoration: none;
+}
+
+aside .content-tertiary div a:hover {
+	color: #4CBB4C;
+}
+
+aside .content-tertiary img {
+	margin-left: 50px;
+}
+
+
 
