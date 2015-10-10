@@ -12,7 +12,7 @@ html {
 }
 
 body {
-	margin: 0;
+	margin: 0 auto;
 }
 
 header nav {
@@ -46,29 +46,43 @@ main .content-secondary p {
 	margin: 150px 50px 0 50px;
 }
 
-aside .content-tertiary {
+aside {
 	background-color: #444;
+}
+
+aside h2 {
+	font-size: 2em;
+	margin-left: 300px;
+	display: inline-block;
+}
+
+aside .content-tertiary {
 	height: 786px;
 	display: flex;
 }
 
-aside .content-tertiary div:nth-child(2) {
+aside .content-tertiary div:nth-child(1) {
 	flex: 1;
+	height: 786px;
 }
 
-aside .content-tertiary div:nth-child(3){
+aside .content-tertiary div:nth-child(2){
 	flex: 1;
+	height: 786px;
 }
 
 aside .content-tertiary h2 {
-	display: inline-block;
-	margin: 20px 0 50px 60px;
 	font-size: 2em;
 }
 
-aside .content-tertiary div p {
-	margin: 100px 0 20px 150px;
+aside .content-tertiary div:nth-child(1) p {
+	margin: 100px 0 20px 270px;
 }
+
+aside .content-tertiary div:nth-child(2) p {
+	margin: 100px 0 20px 240px;
+}
+
 aside .content-tertiary div a {
 	text-decoration: none;
 }
@@ -78,8 +92,19 @@ aside .content-tertiary div a:hover {
 }
 
 aside .content-tertiary img {
-	margin-left: 50px;
+	margin-left: 190px;
 }
 
+@media query and (max-width:600px){
 
+	h2 {
+		display: inline-block;
+	}
+
+	aside .content-tertiary img {
+		width: 50px;
+		height: 30px;
+		margin-right: 100px;
+	}
+}
 
