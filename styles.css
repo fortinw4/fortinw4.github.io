@@ -209,16 +209,16 @@ for tablets
 for desktops
 **************************/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1600px) {
 
 	aside .content-tertiary div {
 		flex: 1;
-		margin: 0 8% 0 0;
+		margin: 0 11% 0 5%;
 	}
 
 	aside .content-tertiary div p:nth-child(1){
 		flex: 1;
-		margin: 0 8% 0 0;
+		margin: 0 1% 0 0;
 	}
 
 }
