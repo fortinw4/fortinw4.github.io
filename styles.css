@@ -87,6 +87,35 @@ aside .content-tertiary img {
 	margin: 0 0 40px 40px;
 }
 
+.fa-arrow-circle-o-down {
+	font-size: 3em;
+	margin: 0 0 50px 610px;
+	text-decoration: none;
+}
+
+.fa-arrow-circle-o-down:hover {
+	color: #4CBB4C;
+}
+
+.content-quaternary {
+	min-height: 660px;
+	background: url("images/desert-scene.jpg");
+	background-size: cover;
+	padding-top: 200px;
+}
+
+.content-quaternary p {
+	margin: 100px 0 0 60px;
+}
+.content-quaternary a {
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.content-quaternary a:hover {
+	color: #4CBB4C;
+}
+
 
 /***************************
 for tablets or desktops
@@ -128,7 +157,7 @@ for tablets or desktops
 	aside .content-tertiary {
 		margin-top: 50px;
 		display: flex;
-		min-height: 485px;
+		min-height: 600px;
 	}
     
 	aside .content-tertiary div {
