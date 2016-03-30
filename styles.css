@@ -79,7 +79,7 @@ aside h2 {
 
 aside .content-tertiary div p {
 	float: right;
-	margin: 25px 25px 5px 0;
+	margin: 7% 7% 1% 0;
 }
 
 
@@ -97,7 +97,7 @@ aside .content-tertiary img {
 
 .fa-arrow-circle-o-down {
 	font-size: 3em;
-	margin: 0 0 50px 610px;
+	margin: 0 0 5% 47%;
 	text-decoration: none;
 }
 
@@ -109,11 +109,11 @@ aside .content-tertiary img {
 	min-height: 660px;
 	background: url("images/desert-scene.jpg");
 	background-size: cover;
-	padding-top: 200px;
+	padding-top: 34%;
 }
 
 .content-quaternary p {
-	margin: 100px 0 0 60px;
+	margin: 35% 0 0 16%;
 }
 .content-quaternary a {
 	text-decoration: none;
@@ -158,7 +158,7 @@ for tablets or desktops
     
 	aside h2 {
 		font-size: 2em;
-		margin: 50px 300px 0 0;
+		margin: 2% 50% 0 0;
 		display: inline-block;
 	}
 
@@ -177,7 +177,7 @@ for tablets or desktops
 
     aside .content-tertiary div p {
     	display: flex;
-        margin: 25px 110px 5px 0;
+        margin: 7% 25% 1% 0;
     }
    
     aside .content-tertiary div p:nth-child(1){
@@ -193,4 +193,13 @@ for tablets or desktops
     aside .content-tertiary div p:nth-child(3){
     	flex: 1;
     }	
+
+    aside .content-quaternary {
+    	padding-top: 12%;
+    	padding-bottom: 5%;
+    }
+
+    aside .content-quaternary p {
+    	margin: 10% 0 0 2%;
+    }
 }
