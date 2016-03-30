@@ -126,7 +126,7 @@ aside .content-tertiary img {
 
 
 /***************************
-for tablets or desktops
+for tablets 
 ***************************/
 
 
@@ -195,11 +195,30 @@ for tablets or desktops
     }	
 
     aside .content-quaternary {
-    	padding-top: 12%;
+    	padding-top: 14%;
     	padding-bottom: 5%;
     }
 
     aside .content-quaternary p {
-    	margin: 10% 0 0 2%;
+    	margin: 8% 0 0 2%;
     }
+
+}
+
+/**************************
+for desktops
+**************************/
+
+@media only screen and (min-width: 768px) {
+
+	aside .content-tertiary div {
+		flex: 1;
+		margin: 0 8% 0 0;
+	}
+
+	aside .content-tertiary div p:nth-child(1){
+		flex: 1;
+		margin: 0 8% 0 0;
+	}
+
 }
