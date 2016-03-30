@@ -37,7 +37,7 @@ header nav {
 
 header nav a {
 	text-decoration: none;
-	margin: 0 10px 0 20px;
+	margin: 0 3% 0 4%;
 	font-size: 1.5em;
 }
 
@@ -52,7 +52,7 @@ main {
 main .content-primary {
 	flex: 1;
 	background-image: url('images/dof1b.png');
-	background-size: 171%;
+	background-size: cover;
 }
 
 main .content-secondary {
