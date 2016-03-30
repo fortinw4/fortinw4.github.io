@@ -1,7 +1,7 @@
 html {
 	box-sizing: border-box;
 	font-family: "Helvetica", "Arial";
-	font-size: 24px;
+	font-size: 12pt;
 	color: #fff;
 }
 
@@ -10,6 +10,12 @@ html {
 	font: inherit;
 	color: inherit;
 }
+
+
+/****************************
+for smartphones
+****************************/
+
 
 body {
 	margin: 0 auto;
@@ -23,7 +29,8 @@ header nav {
 
 header nav a {
 	text-decoration: none;
-	margin: 0 25px 0 25px;
+	margin: 0 10px 0 20px;
+	font-size: 1.5em;
 }
 
 main {
@@ -33,60 +40,37 @@ main {
 main .content-primary {
 	flex: 1;
 	background-image: url('images/dof1b.png');
-	height: 786px;
+	background-size: 171%;
 }
 
 main .content-secondary {
 	flex: 1;
 	background-color: #4CBB4C;
-	height: 786px;
 }
 
 main .content-secondary p {
-	margin: 150px 50px 0 50px;
+	margin: 24px;
 }
 
 aside {
 	background-color: #444;
+	vertical-align: top;
 }
 
 aside h2 {
-	font-size: 2em;
-	margin-left: 300px;
-	display: inline-block;
+	vertical-align: top;
+	font-size: 1.5em;
+	padding-top: 20px;
+	padding-left: 50px;
+	margin: 0 auto;
 }
 
-aside .content-tertiary {
-	height: 786px;
-	display: flex;
+aside .content-tertiary div p {
+	/*margin: 100px 0 20px 110px;*/
+	float: right;
+	margin: 25px 25px 5px 0;
 }
 
-aside .content-tertiary div:nth-child(1) {
-	flex: 1;
-	height: 786px;
-}
-
-aside .content-tertiary div:nth-child(2){
-	flex: 1;
-	height: 786px;
-}
-
-
-aside .content-tertiary h2 {
-	font-size: 2em;
-}
-
-aside .content-tertiary div:nth-child(1) p {
-	margin: 100px 0 20px 130px;
-}
-
-aside .content-tertiary div:nth-child(2) p {
-	margin: 100px 0 20px 90px;
-}
-
-aside .content-tertiary div:nth-child(3) p {
-	margin: 100px 0 20px 120px;
-}
 
 aside .content-tertiary div a {
 	text-decoration: none;
@@ -97,11 +81,87 @@ aside .content-tertiary div a:hover {
 }
 
 aside .content-tertiary img {
-	margin-left: 30px;
-	margin-right: 30px;
+	margin: 0 0 40px 40px;
 }
 
-@media query and (max-width:600px){
+
+/***************************
+for tablets or desktops
+***************************/
+
+
+@media only screen and (min-width: 600px) {
+
+    body {
+    	font-size: 1.5em;
+    }
+
+	header nav a {
+		margin: 0 25px 0 25px;
+	}
+
+	main .content-primary {
+		flex: 1;
+		min-height: 786px;
+		background-size: cover;
+	}
+
+    main .content-secondary {
+    	flex: 1;
+    	background-color: #4CBB4C;
+    	min-height: 400px;
+    }
+
+    main .content-secondary p {
+    	margin: 150px 50px 0 50px;
+    }
+    
+	aside h2 {
+		font-size: 2em;
+		margin: 50px 300px 0 0;
+		display: inline-block;
+	}
+
+	aside .content-tertiary {
+		margin-top: 50px;
+		display: flex;
+		min-height: 400px;
+	}
+    
+	aside .content-tertiary div {
+		flex: 1;
+		margin: 0 auto;
+		min-height: 400px;
+		padding-top: 50px;
+	}
+
+    aside .content-tertiary div p {
+    	display: flex;
+        margin: 25px 110px 5px 0;
+    }
+   
+    aside .content-tertiary div p:nth-child(1){
+    	flex: 1;
+    
+    }
+
+    aside .content-tertiary div p:nth-child(2){
+    	flex: 1;
+    	margin-right: 50px;
+    }
+
+    aside .content-tertiary div p:nth-child(3){
+    	flex: 1;
+    }
+ 
+	
+}
+
+
+
+
+
+/*@media query and (max-width:600px){
 
 	h2 {
 		display: inline-block;
@@ -112,5 +172,5 @@ aside .content-tertiary img {
 		height: 30px;
 		margin-right: 100px;
 	}
-}
+}*/
 
