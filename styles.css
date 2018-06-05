@@ -84,7 +84,13 @@ aside .content-tertiary div a:hover {
 	color: #4CBB4C;
 }
 
+<<<<<<< HEAD
 
+=======
+aside .content-tertiary img {
+    margin: 0 0 10% 25%;
+}
+>>>>>>> 23cde53e47566ce79efb91ff87de469130d457d5
 
 .fa-arrow-circle-o-down {
 	font-size: 3em;
