@@ -90,7 +90,7 @@ aside .content-tertiary img {
 
 .fa-arrow-circle-o-down {
 	font-size: 3em;
-	margin: 0 0 5% 47%;
+	margin: 0 0 5% 48.5%;
 	text-decoration: none;
 }
 
@@ -191,7 +191,7 @@ for desktops
 
 	aside .content-tertiary div {
 		display: inline-block;
-		margin: 0 5%;
+		margin: 0 6%;
 	}
 
 	aside .content-tertiary div p:nth-child(1) {
