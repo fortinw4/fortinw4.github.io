@@ -10,7 +10,7 @@ html,body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    
 }
 
 *, *::before, *::after {
@@ -31,8 +31,7 @@ body {
 
 header nav {
 	background-color: #444;
-	height: 100px;
-	padding-top: 25px;
+	padding: 1.3% 0;
 }
 
 header nav a {
@@ -77,12 +76,6 @@ aside h2 {
 	margin: 0 auto;
 }
 
-aside .content-tertiary div p {
-	float: right;
-	margin: 7% 7% 1% 0;
-}
-
-
 aside .content-tertiary div a {
 	text-decoration: none;
 }
@@ -91,9 +84,7 @@ aside .content-tertiary div a:hover {
 	color: #4CBB4C;
 }
 
-aside .content-tertiary img {
-	margin: 0 0 40px 40px;
-}
+
 
 .fa-arrow-circle-o-down {
 	font-size: 3em;
@@ -162,11 +153,9 @@ for tablets
 		display: inline-block;
 	}
 
-	aside .content-tertiary {
-		margin-top: 50px;
-		display: flex;
-		min-height: 600px;
-	}
+	aside .content-tertiary img {
+    margin: 0 0 10% 15%;
+    }
     
 	aside .content-tertiary div {
 		flex: 1;
@@ -180,20 +169,6 @@ for tablets
         margin: 7% 25% 1% 0;
     }
    
-    aside .content-tertiary div p:nth-child(1){
-    	flex: 1;
-    
-    }
-
-    aside .content-tertiary div p:nth-child(2){
-    	flex: 1;
-    	margin-right: 50px;
-    }
-
-    aside .content-tertiary div p:nth-child(3){
-    	flex: 1;
-    }	
-
     aside .content-quaternary {
     	padding-top: 14%;
     	padding-bottom: 5%;
@@ -213,13 +188,23 @@ for desktops
 @media only screen and (min-width: 1600px) {
 
 	aside .content-tertiary div {
-		flex: 1;
-		margin: 0 11% 0 5%;
+		display: inline-block;
+		margin: 0 5%;
 	}
 
-	aside .content-tertiary div p:nth-child(1){
-		flex: 1;
-		margin: 0 1% 0 0;
+	aside .content-tertiary div p:nth-child(1) {
+		margin: 0 -5% 0 15%;
 	}
 
+	aside .content-tertiary {
+		display: flex;
+	}
+
+	aside .content-tertiary-a {
+		margin-top: 4%;
+	}
+
+	aside .content-tertiary-b {
+		margin-top: 2%;
+	}
 }
